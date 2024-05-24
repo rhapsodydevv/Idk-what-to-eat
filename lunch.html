@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNCH/SUPPER</title>
+    <link rel="stylesheet" href="lunch.css">
+</head>
+<body>
+    <h1>LUNCH/SUPPER</h1>
+    <div class="lunch">
+        <select name="" id="carbohydrates" onchange="selectedOptionC()">
+            <option value="" selected>Carbohydrates</option>
+            <option value="Rice">Rice</option>
+            <option value="Ugali">Ugali</option>
+            <option value="Spaghetti">Spaghetti</option>
+            <option value="Pasta">Pasta</option>
+        </select>
+        <button onclick="randomizeC()">Randomize</button>
+        <select name="" id="protein" onchange="selectedOptionP()">
+            <option value="">Protein</option>
+            <option value="Beef">Beef</option>
+            <option value="Fish">Fish</option>
+            <option value="Beans">Beans</option>
+            <option value="Goat">Goat meat</option>
+            <option value="Lentils">Lentils</option>
+            <option value="Greengrams">Greengrams</option>
+        </select>
+        <button onclick="randomizeP()">Randomize</button>
+        <select name="" id="vitamins" onchange="selectedOptionV()">
+            <option value="Vitamins">Vitamins</option>
+            <option value="Spaghetti">Spinach</option>
+            <option value="Kales">Kales</option>
+            <option value="Cabbage">Cabbage</option>
+            <option value="Terere">Terere</option>
+        </select>
+        <button onclick="randomizeV()">Randomize</button>
+    </div>
+    <div class="selection">
+        <h2 id="selectedC">Mmmmmmhhhhh...</h2>
+        <h2 id="selectedP">Mmmmmmhhhhh...</h2>
+        <h2 id="selectedV">Mmmmmmhhhhh...</h2>
+    </div>
+    <script src="lunch.js"></script>
+</body>
+</html>

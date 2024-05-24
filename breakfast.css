@@ -1,0 +1,27 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    border: 2px black solid;
+    padding: 80px 0;
+    font-size: 50px;
+}
+.break{
+    margin: 50px;
+}
+select{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 40px;
+}
+#selectedB{
+    margin: 60px;
+    font-size: 40px;
+}

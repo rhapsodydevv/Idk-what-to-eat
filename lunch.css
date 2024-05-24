@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    border: 2px black solid;
+    padding: 80px 0;
+    font-size: 50px;
+}
+.lunch{
+    margin: 50px;
+}
+select{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 40px;
+
+}
+.selection{
+    display: block;
+}
+#selectedC, #selectedP, #selectedV{
+    margin: 60px;
+    font-size: 40px;
+}
