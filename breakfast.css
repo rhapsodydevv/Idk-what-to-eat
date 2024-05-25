@@ -2,6 +2,10 @@
     margin: auto;
     box-sizing: border-box;
     text-align: center;
+
+}
+body{
+    background: radial-gradient(#FFEED6, #FBBFCA);
 }
 h1{
     border: 2px black solid;
@@ -9,7 +13,7 @@ h1{
     font-size: 50px;
 }
 .break{
-    margin: 50px;
+    margin: 50px 0;
 }
 select{
     padding: 10px;
@@ -19,9 +23,22 @@ select{
 button{
     padding: 10px;
     font-size: 16px;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-right: 40px;
 }
-#selectedB{
-    margin: 60px;
+#selectedB, #selectedS{
+    margin: 60px 0;
     font-size: 40px;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    
+}
+.selection{
+    display: flex;
+}
+h2{
+    flex-basis: 50%;
+    border: 1px black solid;
+    padding: 100px 30px;
 }

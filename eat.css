@@ -2,10 +2,13 @@
     margin: 0;
     text-align: center;
 }
+body{
+    background: #2B061E;
+}
 h1{
-    border: 2px black solid;
     padding: 80px 0;
     font-size: 50px;
+    color: #2B061E;
 }
 .occasion{
 
@@ -14,4 +17,11 @@ button{
     padding: 20px;
     margin: 30px;
     font-size: 20px;
+    background-color: #875053;
+    color: #FFEED6;
+    border: none;
+
+}
+button:hover{
+    background-color: #2B061E;
 }
