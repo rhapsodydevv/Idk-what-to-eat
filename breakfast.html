@@ -10,37 +10,44 @@
 <body>
     <h1>GOODMORNING LOVELY</h1>
     <div class="break">
-        <select name="" id="breakfast" onchange="selectedOptionB()">
-            <option value="Mmmmmhhhhh" selected>Breakfast</option>
-            <option value="Cornflakes">Cornflakes</option>
-            <option value="Eggs">Eggs</option>
-            <option value="Bacon">Bacon</option>
-            <option value="Bread">Bread</option>
-            <option value="Pancake">Pancake</option>
-        </select>
-        <button onclick="randomizeB()">Randomize</button>
-        <select name="" id="snacks" onchange="selectedOption()">
-            <option value="Mmmmmhhhhh">Snacks</option>
-            <option value="Cookies">Cookies</option>
-            <option value="Nuts">Nuts</option>
-            <option value="Biscuits">Biscuits</option>
-            <option value="Crisps">Crisps</option>
-            <option value="Banana">Banana</option>
-            <option value="Mango">Mango</option>
-            <option value="Orange">Orange</option>
-            <option value="Grapes">Grapes</option>
-            <option value="Watermelon">Watermelon</option>
-            <option value="Avocado">Avocado</option>
-            <option value="Pineapple">Pineapple</option>
-            <option value="Apple">Apple</option>
-            <option value="Cake">Cake</option>
-            <option value="Cupcake">Cupcake</option>
-        </select>
-        <button onclick="randomizeS()">Randomize</button>
-        <div class="selection">
+        <div class="row">
+            <div class="selectbutton">
+                <select name="" id="breakfast" onchange="selectedOptionB()">
+                    <option value="Mmmmmhhhhh" selected>Breakfast</option>
+                    <option value="Cornflakes">Cornflakes</option>
+                    <option value="Eggs">Eggs</option>
+                    <option value="Bacon">Bacon</option>
+                    <option value="Bread">Bread</option>
+                    <option value="Pancake">Pancake</option>
+                </select>
+                <button onclick="randomizeB()">Randomize</button>
+            </div>
             <h2 id="selectedB">Mmmmmhhhhh</h2>
-            <h2 id="selectedS">Mmmmmhhhhh</h2>
         </div>
+
+        <div class="row">
+            <div class="selectbutton">
+                <select name="" id="snacks" onchange="selectedOption()">
+                    <option value="Mmmmmhhhhh">Snacks</option>
+                    <option value="Cookies">Cookies</option>
+                    <option value="Nuts">Nuts</option>
+                    <option value="Biscuits">Biscuits</option>
+                    <option value="Crisps">Crisps</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Grapes">Grapes</option>
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Avocado">Avocado</option>
+                    <option value="Pineapple">Pineapple</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Cake">Cake</option>
+                    <option value="Cupcake">Cupcake</option>
+                </select>
+                <button onclick="randomizeS()">Randomize</button>
+            </div>
+            <h2 id="selectedS"></h2>
+        </div>      
     </div>
 
 

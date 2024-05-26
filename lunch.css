@@ -4,20 +4,22 @@
     text-align: center;
 }
 body{
-    background: radial-gradient(#FFEED6, #FBBFCA);
+    background-image: url(./food.jpg);
 }
 h1{
-    border: 2px black solid;
     padding: 80px 0;
     font-size: 50px;
-}
-.lunch{
-    margin: 50px;
+    background-image: url(./toast.jpg);
+    color: wheat;
 }
 select{
     padding: 10px;
     font-size: 20px;
     text-align: center;
+}
+.lunch{
+    margin: 60px;
+    padding: 0;
 }
 button{
     padding: 10px;
@@ -30,7 +32,7 @@ button{
    
 }
 #selectedC, #selectedP, #selectedV{
-    margin: 60px 0;
+    
     font-size: 40px;
     background-image: none;
     background-position: center;

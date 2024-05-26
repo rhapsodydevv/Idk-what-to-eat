@@ -66,7 +66,7 @@ function randomizeS(){
     let randomOption = Math.floor(Math.random()*options.length)
     select.value = options[randomOption].value
     let selectedd = document.getElementById('selectedS')
-    selectedd.innerText = select.value
+   // selectedd.innerText = select.value
     let imageUrl = '';
     switch(select.value){
         case 'Apple':
@@ -120,7 +120,7 @@ function selectedOption(){
     let selectElement = document.getElementById('snacks')
     let selectedValue = selectElement.value
     let selectedd = document.getElementById('selectedS')
-    selectedd.innerText = selectedValue
+   // selectedd.innerText = selectedValue
     let imageUrl = '';
     switch(selectedValue){
         case 'Apple':
