@@ -18,21 +18,49 @@ select{
     text-align: center;
 }
 .lunch{
-    margin: 60px;
-    padding: 0;
+    display: flex;
+    align-items: center;
+}
+select{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: wheat;
+    width: 200px;
+    margin: 2%;
+}
+.row{
+    flex: 1;
+    padding: 40px 0;
+}
+.selectbutton{
+    margin-bottom: 40px;
 }
 button{
+    /*
     padding: 10px;
+    font-size: 20px;
+    background-color: #875053;
+    color: #FFEED6;
+    border: none;
+    */
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #AF5D63;
+    background-size: 400%;
+    color: white;
+    border: none;
+    cursor: pointer;
     font-size: 16px;
-    margin-left: 10px;
-    margin-right: 40px;
 }
-.selection{
-   display: flex;
-   
+button:hover{
+    background-color: #875053;
 }
 #selectedC, #selectedP, #selectedV{
-    
+    height: 300px;
     font-size: 40px;
     background-image: none;
     background-position: center;

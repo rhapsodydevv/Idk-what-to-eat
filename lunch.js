@@ -4,7 +4,7 @@ function randomizeC(){
     let randomOption = Math.floor(Math.random()*options.length)
     select.value = options[randomOption].value
     let selectedd = document.getElementById('selectedC')
-    selectedd.innerText = select.value
+    //selectedd.innerText = select.value
     let imageUrl = '';
     switch(select.value){
         case 'Rice':
@@ -35,7 +35,7 @@ function selectedOptionC(){
     let selectElement = document.getElementById('carbohydrates')
     let selectedValue = selectElement.value
     let selectedd = document.getElementById('selectedC')
-    selectedd.innerText = selectedValue
+    //selectedd.innerText = selectedValue
     let imageUrl = '';
     switch(selectedValue){
         case 'Rice':
@@ -70,7 +70,7 @@ function randomizeP(){
     let randomOption = Math.floor(Math.random()*options.length)
     select.value = options[randomOption].value
     let selectedd = document.getElementById('selectedP')
-    selectedd.innerText = select.value
+    //selectedd.innerText = select.value
     let imageUrl = '';
     switch(select.value){
         case 'Beef':
@@ -105,7 +105,7 @@ function selectedOptionP(){
     let selectElement = document.getElementById('protein')
     let selectedValue = selectElement.value
     let selectedd = document.getElementById('selectedP')
-    selectedd.innerText = selectedValue
+    //selectedd.innerText = selectedValue
     let imageUrl = '';
     switch(selectedValue){
         case 'Beef':
@@ -144,7 +144,7 @@ function randomizeV(){
     let randomOption = Math.floor(Math.random()*options.length)
     select.value = options[randomOption].value
     let selectedd = document.getElementById('selectedV')
-    selectedd.innerText = select.value
+    //selectedd.innerText = select.value
     let imageUrl = '';
     switch(select.value){
         case 'Cabbage':
@@ -171,7 +171,7 @@ function selectedOptionV(){
     let selectElement = document.getElementById('vitamins')
     let selectedValue = selectElement.value
     let selectedd = document.getElementById('selectedV')
-    selectedd.innerText = selectedValue
+    //selectedd.innerText = selectedValue
     let imageUrl = '';
     switch(selectedValue){
         case 'Cabbage':

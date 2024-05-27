@@ -7,6 +7,7 @@
 body{
     background-color: wheat;
     background-image: url(./food.jpg);
+    height: 100vh;
 }
 h1{
     padding: 80px 0;
@@ -23,24 +24,42 @@ select{
     font-size: 20px;
     text-align: center;
     background-color: wheat;
+    width: 200px;
+    margin: 2%;
 }
 select option:hover {
     box-shadow: 0 0 10px 100px #875053 inset;
 }
 button{
+    /*
     padding: 10px;
     font-size: 20px;
     background-color: #875053;
     color: #FFEED6;
     border: none;
+    */
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #AF5D63;
+    background-size: 400%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #875053;
 }
 .row{
     flex: 1;
-    border: 1px solid wheat;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 #selectedB, #selectedS{
     font-size: 40px;
+    background-color: white;
     background-image: none;
     background-position: center;
     background-size: cover;
